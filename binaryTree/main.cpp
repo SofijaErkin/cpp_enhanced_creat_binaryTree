@@ -87,13 +87,13 @@ int main(){
         cout << vec_str_in_node[i] << ' ';
     }
     cout << endl;
-    TreeNode *T;
+    TreeNode *TreeCreated;
     bool againYes = inputNodeTrue(vec_str_in_node);
     if(againYes) {
-        T = incompleteTreeCreate(vec_str_in_node, 0);
+        TreeCreated = incompleteTreeCreate(vec_str_in_node, 0);
         cout << "          " << "The pre order is  " << endl;
         // Your Code here.
-        preOrderTraverse(T);
+        preOrderTraverse(TreeCreated);
         //..
     }
     return 0;
