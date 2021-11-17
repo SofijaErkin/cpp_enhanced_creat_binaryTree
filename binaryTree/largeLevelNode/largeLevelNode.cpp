@@ -120,13 +120,13 @@ int main() {
       cout << vec_str_in_node[i] << ' ';
   }
   cout << endl;
-  TreeNode *T;
+  TreeNode *TreeCreateed;
   bool againYes = inputNodeTrue(vec_str_in_node);
   if(againYes) {
-      T = incompleteTreeCreate(vec_str_in_node, 0);
+      TreeCreateed = incompleteTreeCreate(vec_str_in_node, 0);
       // Your Code here.
       cout << "          " << "The pre order is  " << endl;
-      vector<int> vec_int = largestValues(T);
+      vector<int> vec_int = largestValues(TreeCreateed);
       for(vector<int>::size_type i = 0; i<vec_int.size(); ++i)
           cout << "                  "<< vec_int[i] << ' ' << endl;
       cout << endl;
