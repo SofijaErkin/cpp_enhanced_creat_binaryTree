@@ -86,6 +86,7 @@ int findMax(TreeNode* root) {
     return max_t;  
 }  
 // Your Code here: function below, no-recursion
+/*
 #include <climits> // INT_MIN
 #include <string> // stoi()
 #include <queue> // queue<TreeNode*>
@@ -111,6 +112,7 @@ int findMaxN(TreeNode* root){ //NRCRS
     }  
     return max_t;  
 }  
+*/
 int main(){ 
     //...
     string str_in;
